@@ -1,0 +1,41 @@
+{ "ConfigItems" : [
+	{ "OS" : [
+		{ "Version" : "10.0.17763" },
+		{ "BuildNumber" : "17763" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "02/22/2021 13:26:12" }
+	]},
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2019 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "02/22/2021 13:26:12" }
+	]},
+	{ "Locale" : [
+		{ "Name" : "en-US" },
+		{ "DisplayName" : "English (United States)" },
+		{ "LCID" : "1033" },
+		{ "Keyboard" : "en-US" },
+		{ "TimeZone" : "(UTC) Coordinated Universal Time" }
+	]},
+	{ "Host" : [
+		{ "Name" : "EC2AMAZ-N4FA9RQ" },
+		{ "Domain" : "WORKGROUP" },
+		{ "PartofDomain" : "False" },
+		{ "DomainRole" : "StandaloneServer" }
+	]},
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.34.145" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0" },
+		{ "DNS" : "DNS Servers . . . . . . . . . . . : 10.0.0.2" }
+	]},
+	{ "BIOS" : [
+		{ "Version" : "Xen - 0" },
+		{ "Name" : "Revision: 1.221 " },
+        { "Description" : "Revision: 1.221 " },
+		{ "Firmware" : "Bios" },
+        { "SMBIOSVersion" : "4.2.amazon" }
+	]}
+]}

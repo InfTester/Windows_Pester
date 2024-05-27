@@ -1,0 +1,40 @@
+{ "ConfigItems" : [
+	{ "OS" : [
+		{ "Version" : "10.0.17763" },
+		{ "BuildNumber" : "17763" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "12/15/2020 09:28:39" }
+	]},
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2019 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "12/15/2020 09:28:39" }
+	]},
+	{ "Locale" : [
+		{ "DisplayName" : "English (United Kingdom)" },
+		{ "LCID" : "2057" },
+		{ "TimeZone" : "(UTC+00:00) Dublin, Edinburgh, Lisbon, London" }
+	]},
+	{ "Host" : [
+		{ "Name" : "DC1" },
+		{ "PartofDomain" : "True" },
+		{ "DomainRole" : "BackupDomainController" }
+	]},
+	{ "DiskConfig" : [
+		{ "FileSystemType" : "NTFS" }	
+	]},
+	{ "SoftwareVers" : [
+		{ "InternetExplorer" : "9.11.17763.0" }	
+	]},
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.36.221" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0 " },
+		{ "DNS" : [
+          { "Server1" : "10.0.33.246" },
+          { "Server2" : "127.0.0.1" }
+        ]}
+	]}
+]}

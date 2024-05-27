@@ -1,0 +1,45 @@
+{ "ConfigItems" : [
+    { "DC" : [
+        { "DomainRole" : "5" },
+        { "GlobalCatalogStatus" : "True" },
+        { "DomainName" : "tviaas" },
+        { "Forest" : "tviaas.local" },
+        { "InfrastructureMaster" : "DC2.tviaas.local" },
+        { "RIDMaster" : "DC2.tviaas.local" },
+        { "PDCEmulator" : "DC2.tviaas.local" },
+        { "DomainNamingMaster" : "DC1.tviaas.local" },
+        { "SchemaMaster" : "DC1.tviaas.local" },
+        { "DomainMode" : "Windows2016Domain" },
+        { "ForestMode" : "Windows2016Forest" },
+        { "DCOU" : "OU=Domain Controllers,DC=tviaas,DC=local" }
+    ]},
+	{ "OS" : [
+		{ "Version" : "10.0.14393" },
+		{ "BuildNumber" : "14393" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "01/05/2021 08:27:30" }
+	]},
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2016 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "01/05/2021 08:27:30" }
+	]},
+	{ "Locale" : [
+		{ "DisplayName" : "English (United States)" },
+		{ "LCID" : "1033" },
+		{ "TimeZone" : "(UTC+00:00) Dublin, Edinburgh, Lisbon, London" }
+	]},
+	{ "Host" : [
+		{ "Name" : "DC2" },
+		{ "PartofDomain" : "True" },
+		{ "DomainRole" : "PrimaryDomainController" }
+	]},
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.33.246" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0" },
+		{ "DNS" : "DNS Servers . . . . . . . . . . . : 10.0.36.221" }
+	]}
+]}

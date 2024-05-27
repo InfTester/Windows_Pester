@@ -1,0 +1,70 @@
+{ "ConfigItems" : [
+	
+	{ "GPOLocal" : [
+		{ "Name" : "Local Group Policy" },
+		{ "Versiondirectory" : "0" },
+		{ "Versionsysvol" : "0" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "Local" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "0" },
+		{ "LinkOrder" : "1" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]},
+        { "GPODefault" : [
+		{ "Name" : "Default Domain Policy" },
+		{ "Versiondirectory" : "7" },
+		{ "Versionsysvol" : "7" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "tviaas.local" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "1" },
+		{ "LinkOrder" : "2" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]},
+        { "GPOWSUS" : [
+		{ "Name" : "WSUS GPO 2" },
+		{ "Versiondirectory" : "3" },
+		{ "Versionsysvol" : "3" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "tviaas.local/ServerGroup2" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "2" },
+		{ "LinkOrder" : "3" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]},
+	{ "GPOPassword" : [
+		{ "MaxAge" : "42" },
+		{ "MinAge" : "1" },
+		{ "LockOut" : "0" },
+		{ "MaxNumPasswords" : "24" },
+		{ "MinPasswordLength" : "7" },
+                { "PassComplex" : "true" },
+                { "ReverseEncryption" : "false" }       
+	]},
+        { "PublicKey" : [
+		{ "IssuedTo" : "Administrator" },
+		{ "IssuedBy" : "Administrator" },
+		{ "ExpirationDate" : "2120-11-21T12:26:29Z" }
+	]},
+        { "Windows" : [
+		{ "ConfigAutoUpdates" : "Configure Automatic Updates" },
+		{ "ConfigAutoUpdatesStatus" : "Enabled" },
+		{ "ClientSideTarget" : "Enable client-side targeting" },
+		{ "ClientSideTargetStatus" : "Enabled" },
+		{ "IntraMSUpdate" : "Specify intranet Microsoft update service location" },
+		{ "IntraMSUpdateStatus" : "Enabled" }
+        ]}	
+]}

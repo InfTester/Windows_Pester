@@ -1,0 +1,51 @@
+{ "ConfigItems" : [
+	
+	{ "GPOLocal" : [
+		{ "Name" : "Local Group Policy" },
+		{ "Versiondirectory" : "0" },
+		{ "Versionsysvol" : "0" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "Local" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "0" },
+		{ "LinkOrder" : "1" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]},
+
+        { "GPODefault" : [
+		{ "Name" : "Default Domain Policy" },
+		{ "Versiondirectory" : "7" },
+		{ "Versionsysvol" : "7" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "tviaas.local" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "1" },
+		{ "LinkOrder" : "2" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]},
+
+        { "GPOWSUS" : [
+		{ "Name" : "WSUS GPO 2" },
+		{ "Versiondirectory" : "3" },
+		{ "Versionsysvol" : "3" },
+		{ "Enabled" : "true" },
+		{ "IsValid" : "true" },
+		{ "FilterAllowed" : "true" },
+                { "AccessDenied" : "false" },
+                { "SOMPath" : "tviaas.local/ServerGroup2" },
+                { "SOMOrder" : "1" },
+                { "AppliedOrder" : "2" },
+		{ "LinkOrder" : "3" },
+                { "LinkEnabled" : "true" },
+		{ "NoOverride" : "false" }
+	]}
+		
+]}

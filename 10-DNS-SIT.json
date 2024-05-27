@@ -1,0 +1,29 @@
+{ "ConfigItems" : [
+        { "DNS" : [
+                { "PrimaryZone" : "tviaas.local" }
+        ]},
+        { "Forwarder" : [
+                { "IpAddress" : "10.0.0.2" },
+                { "UseRootHint" : "True" },
+                { "TimeOut" : "3" },
+                { "EnableReordering" : "True" }
+        ]},
+	{ "Advanced" : [
+               	{ "RoundRobin" : "True" },
+		{ "BindSecondaries" : "False" }
+	]},
+	{ "Aging" : [
+		{ "AgingEnabled" : "True" },
+		{ "RefreshInterval" : "7.00:00:00" },
+		{ "NoRefreshInterval" : "7.00:00:00" }
+	]},
+	{ "SOA" : [
+		{ "PrimaryServer" : "dc1.tviaas.local." },
+		{ "ResponsiblePerson" : "hostmaster.tviaas.local." },
+                { "RefreshInterval" : "00:15:00" },
+		{ "RetryDelay" : "00:10:00" },
+		{ "ExpireLimit" : "1.00:00:00" },
+		{ "MinTimeToLive" : "01:00:00" }
+	]}
+	
+]}

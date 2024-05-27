@@ -1,0 +1,40 @@
+{ "ConfigItems" : [
+	{ "OS" : [
+		{ "Version" : "10.0.14393" },
+		{ "BuildNumber" : "14393" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "04/15/2021 11:50:25" }
+	]},
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2016 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "04/15/2021 10:50:25" }
+	]},
+	{ "Locale" : [
+		{ "DisplayName" : "English (United Kingdom)" },
+		{ "LCID" : "2057" },
+		{ "TimeZone" : "(UTC+00:00) Dublin, Edinburgh, Lisbon, London" }
+	]},
+	{ "Host" : [
+		{ "Name" : "WTS-2016" },
+		{ "PartofDomain" : "True" },
+		{ "DomainRole" : "MemberServer" }
+	]},
+	{ "DiskConfig" : [
+		{ "FileSystemType" : "NTFS" }	
+	]},
+	{ "SoftwareVers" : [
+		{ "InternetExplorer" : "9.11.14393.0" }	
+	]},
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.33.189" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0 " },
+		{ "DNS" : [
+          { "Server1" : "10.0.36.221" },
+          { "Server2" : "10.0.33.246" }
+        ]}
+	]}
+]}

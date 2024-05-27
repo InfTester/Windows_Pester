@@ -1,0 +1,42 @@
+{ "ConfigItems" : [
+	
+	{ "Host" : [
+		{ "Name" : "W2016-DOMJOIN" },
+		{ "Domain" : "tviaas.local" },
+		{ "PartofDomain" : "True" },
+		{ "DomainRole" : "MemberServer" }
+	]},
+
+	{ "Domain" : [
+		{ "Name" : "tviaas.local" }
+	]},
+
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.39.212" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0" },
+		{ "DNS" : "DNS Servers . . . . . . . . . . . : 10.0.36.221" }
+	]},
+
+	{ "OS" : [
+		{ "Version" : "10.0.14393" },
+		{ "BuildNumber" : "14393" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "04/08/2021 07:56:04" }
+	]},
+
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2016 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "04/08/2021 07:56:04" }
+	]},
+
+	{ "Locale" : [
+		{ "DisplayName" : "English (United States)" },
+		{ "LCID" : "1033" },
+		{ "TimeZone" : "(UTC) Coordinated Universal Time" }
+	]}
+		
+]}
