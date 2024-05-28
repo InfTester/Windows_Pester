@@ -26,44 +26,7 @@ Collects information about all servers in Active Directory.
 
 
 .NOTES
-Written by Paul Cunningham
-Technical Consultant/Director at LockLAN Systems Pty Ltd - https://www.locklan.com.au
-Microsoft MVP, Office Servers and Services - http://exchangeserverpro.com
 
-You can also find me on:
-
-* Twitter: https://twitter.com/paulcunningham
-* Twitter: https://twitter.com/ExchServPro
-* LinkedIn: http://au.linkedin.com/in/cunninghamp/
-* Github: https://github.com/cunninghamp
-
-License:
-
-The MIT License (MIT)
-
-Copyright (c) 2016 Paul Cunningham
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Change Log:
-V1.00, 20/04/2015 - First release
-V1.01, 01/05/2015 - Updated with better error handling
 #>
 
 
