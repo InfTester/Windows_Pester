@@ -2,8 +2,8 @@
 .EXAMPLES
 #    3D pie chart
 Get-Process | 
-    select -First 5 name, pm | 
-    Out-PieChart -PieChartTitle "Top 5 Windows processes running" -DisplayToScreen -Pie3D
+    select -First 6 name, pm | 
+    Out-PieChart -PieChartTitle "Top 6 Windows processes running" -DisplayToScreen -Pie3D
 
 #    standard pie chart
 Get-Process | 
@@ -144,6 +144,7 @@ Function Out-PieChart {
         }
     }
 }
+
 #CSS codes
 $header = @"
 <style>
