@@ -1,0 +1,25 @@
+﻿COMPUTERSYSTEM [
+       
+        {CsDescription                                           : AT/AT COMPATIBLE}
+        {CsInitialLoadInfo                                       : }
+        {CsInstallDate                                           : }
+        {CsKeyboardPasswordStatus                                : Unknown}
+        {CsLastLoadInfo                                          : }
+        {CsOEMStringArray                                        : {Default string, Default string, LANCOME, Default string...}}
+        {CsPauseAfterReset                                       : -1}
+        {CsPCSystemType                                          : Desktop}
+        {CsPCSystemTypeEx                                        : Desktop}
+        {CsPrimaryOwnerContact                                   : }
+        {CsPrimaryOwnerName                                      : }
+        {CsResetCapability                                       : Other}
+        {CsResetCount                                            : -1}
+        {CsResetLimit                                            : -1}
+        {CsStatus                                                : OK}
+        {CsSupportContactDescription                             : }
+        {CsSystemFamily                                          : To be filled by O.E.M.}
+        {CsSystemSKUNumber                                       : SKU}
+        {CsSystemType                                            : x64-based PC}
+        {CsThermalState                                          : Safe}
+        {CsUserName                                              : DESKTOP-0NI678D\tonyl}
+        {CsWakeUpType                                            : PCIPME}
+   ]   

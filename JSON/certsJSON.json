@@ -1,0 +1,21 @@
+﻿CERTIFICATES - Cert:\LocalMachine [
+    {Name : TestSignRoot}
+    {Name : ClientAuthIssuer}
+    {Name : Root}
+    {Name : TrustedDevices}
+    {Name : WebHosting}
+    {Name : CA}
+    {Name : TrustedAppRoot}
+    {Name : eSIM Certification Authorities}
+    {Name : AuthRoot}
+    {Name : Windows Live ID Token Issuer}
+    {Name : TrustedPublisher}
+    {Name : AAD Token Issuer}
+    {Name : FlightRoot}
+    {Name : TrustedPeople}
+    {Name : My}
+    {Name : SmartCardRoot}
+    {Name : Trust}
+    {Name : Disallowed}
+    {Name : Homegroup Machine Certificates}
+    ]

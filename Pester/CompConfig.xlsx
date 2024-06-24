@@ -1,0 +1,186 @@
+
+WindowsBuildLabEx                                       : 19041.1.amd64fre.vb_release.191206-1406
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Core
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 14/07/2020 09:56:06
+WindowsProductId                                        : 00326-00864-26372-AAOEM
+WindowsProductName                                      : Windows 10 Home
+WindowsRegisteredOrganization                           : 
+WindowsRegisteredOwner                                  : 
+WindowsSystemRoot                                       : C:\WINDOWS
+WindowsVersion                                          : 2004
+WindowsUBR                                              : 572
+BiosCharacteristics                                     : {7, 10, 11, 12…}
+BiosBIOSVersion                                         : {ALASKA - 1072009, BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D}
+BiosBuildNumber                                         : 
+BiosCaption                                             : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D
+BiosCodeSet                                             : 
+BiosCurrentLanguage                                     : en|US|iso8859-1
+BiosDescription                                         : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D
+BiosEmbeddedControllerMajorVersion                      : 255
+BiosEmbeddedControllerMinorVersion                      : 255
+BiosFirmwareType                                        : Bios
+BiosIdentificationCode                                  : 
+BiosInstallableLanguages                                : 9
+BiosInstallDate                                         : 
+BiosLanguageEdition                                     : 
+BiosListOfLanguages                                     : {en|US|iso8859-1, fr|FR|iso8859-1, zh|TW|unicode, ja|JP|unicode…}
+BiosManufacturer                                        : American Megatrends Inc.
+BiosName                                                : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D
+BiosOtherTargetOS                                       : 
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 13/11/2019 00:00:00
+BiosSerialNumber                                        : AS00000006745
+BiosSMBIOSBIOSVersion                                   : 2006
+BiosSMBIOSMajorVersion                                  : 2
+BiosSMBIOSMinorVersion                                  : 8
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 5
+BiosSystemBiosMinorVersion                              : 13
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : ALASKA - 1072009
+CsAdminPasswordStatus                                   : Unknown
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : 
+CsBootOptionOnWatchDog                                  : 
+CsBootROMSupported                                      : True
+CsBootStatus                                            : {0, 0, 0, 0…}
+CsBootupState                                           : Normal boot
+CsCaption                                               : DESKTOP-0NI678D
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : Default string
+CsCurrentTimeZone                                       : 0
+CsDaylightInEffect                                      : False
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : DESKTOP-0NI678D
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : False
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       : 
+CsInstallDate                                           : 
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          : 
+CsManufacturer                                          : AlphaSync
+CsModel                                                 : System Product Name
+CsName                                                  : DESKTOP-0NI678D
+CsNetworkAdapters                                       : {WiFi, Ethernet}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 16
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {AMD Ryzen 7 2700X Eight-Core Processor         }
+CsOEMStringArray                                        : {Default string, Default string, LANCOME, Default string…}
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Desktop
+CsPCSystemTypeEx                                        : Desktop
+CsPowerManagementCapabilities                           : 
+CsPowerManagementSupported                              : 
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   : 
+CsPrimaryOwnerName                                      : 
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             : 
+CsSystemFamily                                          : To be filled by O.E.M.
+CsSystemSKUNumber                                       : SKU
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 17107689472
+CsPhysicallyInstalledMemory                             : 16777216
+CsUserName                                              : DESKTOP-0NI678D\tonyl
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 10 Home
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : WindowsHome
+OsVersion                                               : 10.0.19041
+OsCSDVersion                                            : 
+OsBuildNumber                                           : 19041
+OsHotFixes                                              : {KB4578968, KB4537759, KB4557968, KB4560366…}
+OsBootDevice                                            : \Device\HarddiskVolume3
+OsSystemDevice                                          : \Device\HarddiskVolume1
+OsSystemDirectory                                       : C:\WINDOWS\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\WINDOWS
+OsCountryCode                                           : 44
+OsCurrentTimeZone                                       : 0
+OsLocaleID                                              : 0809
+OsLocale                                                : en-GB
+OsLocalDateTime                                         : 09/11/2020 17:50:00
+OsLastBootUpTime                                        : 29/10/2020 19:16:32
+OsUptime                                                : 10.22:33:28.2460235
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 16706728
+OsFreePhysicalMemory                                    : 8723696
+OsTotalVirtualMemorySize                                : 32435368
+OsFreeVirtualMemory                                     : 14200308
+OsInUseVirtualMemory                                    : 18235060
+OsTotalSwapSpaceSize                                    : 
+OsSizeStoredInPagingFiles                               : 15728640
+OsFreeSpaceInPagingFiles                                : 14115932
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.19041.488
+OsInstallDate                                           : 14/07/2020 10:56:06
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-GB}
+OsNumberOfLicensedUsers                                 : 
+OsNumberOfProcesses                                     : 278
+OsNumberOfUsers                                         : 2
+OsOrganization                                          : 
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-GB
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                                  : 
+OsPAEEnabled                                            : 
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : 
+OsSerialNumber                                          : 00326-00864-26372-AAOEM
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, TerminalServicesSingleSession, HomeEdition}
+OsServerLevel                                           : 
+KeyboardLayout                                          : en-GB
+TimeZone                                                : (UTC+00:00) Dublin, Edinburgh, Lisbon, London
+LogonServer                                             : \\DESKTOP-0NI678D
+PowerPlatformRole                                       : Desktop
+HyperVisorPresent                                       : False
+HyperVRequirementDataExecutionPreventionAvailable       : True
+HyperVRequirementSecondLevelAddressTranslation          : True
+HyperVRequirementVirtualizationFirmwareEnabled          : False
+HyperVRequirementVMMonitorModeExtensions                : True
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   : 
+DeviceGuardAvailableSecurityProperties                  : 
+DeviceGuardSecurityServicesConfigured                   : 
+DeviceGuardSecurityServicesRunning                      : 
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : 
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : 
+
+

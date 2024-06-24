@@ -1,0 +1,23 @@
+﻿PERFORMANCE
+    PERFMON
+    TASKMANAGER
+        {OsForegroundApplicationBoost                            : Maximum}
+        {OsTotalVisibleMemorySize                                : 16706728}
+        {OsFreePhysicalMemory                                    : 9583380}
+        {OsTotalVirtualMemorySize                                : 35581096}
+        {OsFreeVirtualMemory                                     : 19592480}
+        {OsInUseVirtualMemory                                    : 15988616}
+        {OsTotalSwapSpaceSize                                    : 
+       
+        {OsMaxNumberOfProcesses                                  : 4294967295}
+
+        {OsMaxProcessMemorySize                                  : 137438953344}
+       
+        Page[
+        {OsSizeStoredInPagingFiles                               : 18874368}
+        {OsFreeSpaceInPagingFiles                                : 18494460}
+        {OsPagingFiles                                           : {E:\pagefile.sys}}
+        {CsAutomaticManagedPagefile                              : True}
+        ]
+
+        ]

@@ -1,0 +1,33 @@
+﻿NICSETTINGS [
+{CsNetworkAdapters[0]                                       : WiFi}
+{CsNetworkAdapters[1]                                       : Ethernet}
+{CsNetworkAdapters[2]                                       : vEthernet (Default Switch)}
+
+]
+    
+NICCard Settings [
+ 
+{IPAddress         : 192.168.1.241}
+{InterfaceIndex    : 18}
+{InterfaceAlias    : WiFi}
+{AddressFamily     : IPv4}
+{Type              : Unicast}
+{PrefixLength      : 24}
+{PrefixOrigin      : Dhcp}
+{SuffixOrigin      : Dhcp}
+{AddressState      : Preferred}
+{ValidLifetime     : 15:27:19}
+{PreferredLifetime : 15:27:19}
+{SkipAsSource      : False}
+{PolicyStore       : ActiveStore}
+]
+    IP
+    DNS
+    DHCP
+    WINS
+    SUBNET MASK
+    STATIC ROUTES/ROUTING TABLE
+    MAC ADDRESS
+
+]
+

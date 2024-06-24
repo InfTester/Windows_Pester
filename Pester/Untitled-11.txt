@@ -1,0 +1,3 @@
+Invoke-Pester -Path 'C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\LocalNICSettings\DHCPCon.ps1' -OutputFile 'C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\LocalNICSettings\DHCPCon.xml' OutputFormat -NUnitXml
+<#
+ C:\Program Files\Extent\extent.exe -i C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\xmlOutput\CompNameOutput.xml' -o C:\Users\tonyl\OneDrive\TVIAAS:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\LocalNICSettings\DHCPCon.ps1' -OutputFile 'C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\LocalNICSettings\DHCPCon.xml' OutputFormat -NUnitXml^V

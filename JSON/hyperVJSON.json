@@ -1,0 +1,8 @@
+﻿HYPERV [
+        {HyperVisorPresent                                       : False}
+        {HyperVRequirementDataExecutionPreventionAvailable       : True}
+        {HyperVRequirementSecondLevelAddressTranslation          : True}
+        {HyperVRequirementVirtualizationFirmwareEnabled          : False}
+        {HyperVRequirementVMMonitorModeExtensions                : True}
+        {CsHypervisorPresent                                     : False}
+        ]

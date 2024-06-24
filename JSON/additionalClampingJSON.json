@@ -1,0 +1,11 @@
+﻿ADDITIONALCLAMPING [
+
+        {OsCodeSet                                               : 1252}
+        {OsDataExecutionPreventionAvailable                      : True}
+        {OsDataExecutionPrevention32BitApplications              : True}
+        {OsDataExecutionPreventionDrivers                        : True}
+        {OsDataExecutionPreventionSupportPolicy                  : OptIn}
+        {OsDebug                                                 : False}
+        {OsDistributed                                           : False}
+        {OsEncryptionLevel                                       : 256}
+        ]

@@ -1,0 +1,12 @@
+﻿LOCALESETTINGS [
+    {KeyboardLayout                                          : en-GB}
+    {TimeZone                                                : (UTC+00:00) Dublin, Edinburgh, Lisbon, London}
+    {OsCountryCode                                           : 44}
+    {OsCurrentTimeZone                                       : 0}
+    {OsLocaleID                                              : 0809}
+    {OsLocale                                                : en-GB}
+    {CsCurrentTimeZone                                       : 0}
+    {CsDaylightInEffect                                      : False}
+    {CsEnableDaylightSavingsTime                             : True}
+    {OsLanguage                                              : en-GB}
+    ]

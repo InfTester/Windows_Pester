@@ -1,0 +1,20 @@
+﻿serviceMemberTypeProperty [
+                                                      {
+CanPauseAndContinue Property   bool CanPauseAndContinue {get;}}                                   
+{CanShutdown         Property   bool CanShutdown {get;}         }                                  
+{CanStop             Property   bool CanStop {get;}              }                                 
+{Container           Property   System.ComponentModel.IContainer Container {get;}}                 
+{DependentServices   Property   System.ServiceProcess.ServiceController[] DependentServices {get;}}
+{DisplayName         Property   string DisplayName {get;set;}                                      }
+{MachineName         Property   string MachineName {get;set;}                                      }
+{ServiceHandle       Property   System.Runtime.InteropServices.SafeHandle ServiceHandle {get;}     }
+{ServiceName         Property   string ServiceName {get;set;}                                      }
+{ServicesDependedOn  Property   System.ServiceProcess.ServiceController[] ServicesDependedOn {get;}}
+{ServiceType         Property   System.ServiceProcess.ServiceType ServiceType {get;}               }
+{Site                Property   System.ComponentModel.ISite Site {get;set;}                        }
+{StartType           Property   System.ServiceProcess.ServiceStartMode StartType {get;}            }
+{Status              Property   System.ServiceProcess.ServiceControllerStatus Status {get;} }
+{Name             AliasProperty Name = ServiceName }                  
+{RequiredServices AliasProperty RequiredServices = ServicesDependedOn}
+
+]

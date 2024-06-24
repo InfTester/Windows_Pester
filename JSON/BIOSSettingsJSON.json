@@ -1,0 +1,36 @@
+﻿BIOS Settings [
+    {UEFI: }
+    {CMOS: }
+    {PASSWORD: }
+        {BiosCharacteristics                                     : {7, 10, 11, 12...}}
+        {BiosBIOSVersion                                         : {ALASKA - 1072009, BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D}}
+        {BiosBuildNumber                                         : }
+        {BiosCaption                                             : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D}
+        {BiosCodeSet                                             : }
+        {BiosCurrentLanguage                                     : en|US|iso8859-1}
+        {BiosDescription                                         : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D}
+        {BiosEmbeddedControllerMajorVersion                      : 255}
+        {BiosEmbeddedControllerMinorVersion                      : 255}
+        {BiosFirmwareType                                        : Bios}
+        {BiosIdentificationCode                                  : }
+        {BiosInstallableLanguages                                : 9}
+        {BiosInstallDate                                         : }
+        {BiosLanguageEdition                                     : }
+        {BiosListOfLanguages                                     : {en|US|iso8859-1, fr|FR|iso8859-1, zh|TW|unicode, ja|JP|unicode...}}
+        {BiosManufacturer                                        : American Megatrends Inc.}
+        {BiosName                                                : BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D}
+        {BiosOtherTargetOS                                       : }
+        {BiosPrimaryBIOS                                         : True}
+        {BiosReleaseDate                                         : 13/11/2019 00:00:00}
+        {BiosSeralNumber                                         : AS00000006745}
+        {BiosSMBIOSBIOSVersion                                   : 2006}
+        {BiosSMBIOSMajorVersion                                  : 2}
+        {BiosSMBIOSMinorVersion                                  : 8}
+        {BiosSMBIOSPresent                                       : True}
+        {BiosSoftwareElementState                                : Running}
+        {BiosStatus                                              : OK}
+        {BiosSystemBiosMajorVersion                              : 5}
+        {BiosSystemBiosMinorVersion                              : 13}
+        {BiosTargetOperatingSystem                               : 0}
+        {BiosVersion                                             : ALASKA - 1072009}
+        ]

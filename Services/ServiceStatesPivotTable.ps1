@@ -1,0 +1,2 @@
+﻿Import-Excel C:\Users\tonyl\OneDrive\TVIAAS\Services\ServiceStates.xlsx -WorksheetName 'Services' |
+Export-Excel -Path C:\Users\tonyl\OneDrive\TVIAAS\Services\ServiceStates.xlsx -Show -IncludePivotTable -PivotRows Name,Timestamp -PivotData @{Timestamp = 'count'} -PivotColumns Status

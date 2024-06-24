@@ -1,0 +1,56 @@
+﻿Copy<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="5" errors="0" failures="5" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-09-23" time="17:19:18">
+  <environment clr-version="4.0.30319.42000" user-domain="DESKTOP-0NI678D" cwd="C:\Users\tonyl" platform="Microsoft Windows 10 Home|C:\WINDOWS|\Device\Harddisk1\Partition1" machine-name="DESKTOP-0NI678D" nunit-version="2.5.8.0" os-version="10.0.19041" user="tonyl" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="0.2183" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1" executed="True" result="Failure" success="False" time="0.2183" asserts="0" description="C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Server Configuration " executed="True" result="Failure" success="False" time="0.1455" asserts="0" description="Server Configuration ">
+            <results>
+              <test-suite type="TestFixture" name="Server Configuration .BIOS Configuration" executed="True" result="Failure" success="False" time="0.1027" asserts="0" description="Server Configuration .BIOS Configuration">
+                <results>
+                  <test-case description="Server BIOS Name is BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D " name="Server Configuration .BIOS Configuration.Server BIOS Name is BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D " time="0.0202" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected 'BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D', but got $null.
+at $bios.Name | Should -be 'BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D', C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:49</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:49</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).SMBIOSBIOSVersion should be 2006" name="Server Configuration .BIOS Configuration.Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).SMBIOSBIOSVersion should be 2006" time="0.0051" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected '2006', but got $null.
+at $bios.SMBIOSBIOSVersion | Should -be '2006', C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:55</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:55</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).Manufacturer is American Megatrends Inc." name="Server Configuration .BIOS Configuration.Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).Manufacturer is American Megatrends Inc." time="0.0066" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected 'American Megatrends Inc.', but got $null.
+at $bios.Manufacturer | Should -be 'American Megatrends Inc.', C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:61</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:61</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).SerialNumber is AS00000006745" name="Server Configuration .BIOS Configuration.Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).SerialNumber is AS00000006745" time="0.0086" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected 'AS00000006745', but got $null.
+at $bios.SerialNumber | Should -be 'AS00000006745' }, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:67</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:67</stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case description="Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).Version is ALASKA - 1072009  " name="Server Configuration .BIOS Configuration.Win32_BIOS: BIOS Date: 11/13/19 17:18:20 Ver: 05.0000D (Name = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementID = &quot;BIOS Date: 11/13/19 17:18:20 Ver: 05.00..., SoftwareElementState = 3, TargetOperatingSystem = 0, Version = &quot;ALASKA - 1072009&quot;).Version is ALASKA - 1072009  " time="0.0101" asserts="0" success="False" result="Failure" executed="True">
+                    <failure>
+                      <message>Expected 'ALASKA - 1072009', but got $null.
+at $bios.Version | Should -be 'ALASKA - 1072009' }, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:72</message>
+                      <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\Documents\Scripting\Powershell scripts\Complete\Server Config\PesterV5\BIOSConfigAllCIM.ps1:72</stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

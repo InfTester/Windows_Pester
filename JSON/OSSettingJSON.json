@@ -1,0 +1,29 @@
+﻿OPERATINGSYSTEMSPECIFICSETTINGS [
+    
+    {OsName                                                  : Microsoft Windows 10 Pro}
+    {OsType                                                  : WINNT}
+    {OsOperatingSystemSKU                                    : 48}
+    {OsVersion                                               : 10.0.19042}
+    {OsCSDVersion                                            : }
+    {OsBuildNumber                                           : 19042}
+    {OsManufacturer                                          : Microsoft Corporation}
+    {OsMuiLanguages                                          : {en-GB}}
+    {OsNumberOfLicensedUsers                                 : 0}
+    {OsNumberOfProcesses                                     : 260}
+    {OsNumberOfUsers                                         : 2}
+    {OsOrganization                                          : }
+    {OsArchitecture                                          : 64-bit   }  
+    {OsOtherTypeDescription                                  : }
+    {OsPAEEnabled                                            : }
+    {OsPortableOperatingSystem                               : False}
+    {OsPrimary                                               : True}
+    {OsProductType                                           : WorkStation}
+    {OsRegisteredUser                                        : }
+    {OsSerialNumber                                          : 00330-80000-00000-AA461}
+    {OsServicePackMajorVersion                               : 0}
+    {OsServicePackMinorVersion                               : 0}
+    {OsStatus                                                : OK}
+    {OsSuites                                                : {TerminalServices, TerminalServicesSingleSession}}
+    {OsServerLevel                                           : }
+    {OsBuildType                                             : Multiprocessor Free}
+]

@@ -1,0 +1,14 @@
+﻿NETWORK SHARES
+HDD
+    DISK PARTITIONS AND VOLUMES
+    FILE SYSTEM TYPE
+        NTFS
+        RefS
+        FAT32
+    {Boot Partition
+    {EXTENDED VOLUMES
+    {FRAGMENTATION
+    {BAD SECTORS
+    {WINDOWS DIRECTORY
+    {OsPagingFiles                                           : {E:\pagefile.sys}}
+    {CsAutomaticManagedPagefile                              : True}

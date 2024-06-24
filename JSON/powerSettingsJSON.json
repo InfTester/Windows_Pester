@@ -1,0 +1,8 @@
+﻿POWERSETTINGS [
+    {PowerPlatformRole                                       : Desktop}
+    {CsPowerManagementCapabilities                           : }
+    {CsPowerManagementSupported                              : }
+    {CsPowerOnPasswordStatus                                 : Unknown}
+    {CsPowerState                                            : Unknown}
+    {CsPowerSupplyState                                      : Safe}
+    ]

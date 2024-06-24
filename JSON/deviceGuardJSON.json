@@ -1,0 +1,9 @@
+﻿DEVICE GUARD [
+        {DeviceGuardSmartStatus                                  : Off}
+        {DeviceGuardRequiredSecurityProperties                   : }
+        {DeviceGuardAvailableSecurityProperties                  : }
+        {DeviceGuardSecurityServicesConfigured                   : }
+        {DeviceGuardSecurityServicesRunning                      : }
+        {DeviceGuardCodeIntegrityPolicyEnforcementStatus         : }
+        {DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : }
+        ]

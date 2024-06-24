@@ -1,0 +1,313 @@
+#OS Property -  "Distributed" is   false,
+        it "Distributed is " {
+  
+              $OS.Distributed | Should -be "
+        }
+
+    #OS Property -  "LastBootUpTime" is   "\/Date(1600034275250)\/"
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "LocalDateTime" is   "\/Date(1601654098579)\/"
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "MaxNumberOfProcesses" is   4294967295,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "MaxProcessMemorySize" is   137438953344,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "NumberOfLicensedUsers" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "NumberOfProcesses" is   222,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "NumberOfUsers" is   2,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "OSType" is   18,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "OtherTypeDescription" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "SizeStoredInPagingFiles" is   15204352,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "TotalSwapSpaceSize" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+   #OS Property - "TotalVirtualMemorySize" is   31911080,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+   #OS Property -   "TotalVisibleMemorySize" is   16706728,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "Version" is   "10.0.19041",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "BootDevice" is   "\\Device\\HarddiskVolume3",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "BuildNumber" is   "19041",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "BuildType" is   "Multiprocessor Free",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "CodeSet" is   "1252",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+   #OS Property -  "CountryCode" is   "44",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "CSDVersion" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "DataExecutionPrevention_32BitApplications" is   true,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "DataExecutionPrevention_Available" is   true,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "DataExecutionPrevention_Drivers" is   true,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "DataExecutionPrevention_SupportPolicy" is   2,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "Debug" is   false,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "EncryptionLevel" is   256,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "ForegroundApplicationBoost" is   2,
+        it " is " {
+  
+              $OS. | Should -be "
+        }          
+    #OS Property -  "LargeSystemCache" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }     
+    #OS Property -  "Locale" is   "0809",
+        it " is " {
+  
+              $OS. | Should -be "
+        }     
+    #OS Property -  "Manufacturer" is   "Microsoft Corporation",
+        it " is " {
+  
+              $OS. | Should -be "
+        }     
+    #OS Property -  "MUILanguages" is   [
+        it " is " {
+  
+              $OS. | Should -be "en-GB"            
+               
+        }
+    #OS Property -  "OperatingSystemSKU" is   101,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "Organization" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "OSArchitecture" is   "64-bit",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "OSLanguage" is   2057,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "OSProductSuite" is   768,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "PAEEnabled" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "PlusProductID" is   null
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "PlusVersionNumber" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "PortableOperatingSystem" is   false,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "Primary" is   true,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+   #OS Property - "ProductType" is   1,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "RegisteredUser" is   null,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "SerialNumber" is   "00326-00864-26372-AAOEM",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "ServicePackMajorVersion" is   0,
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "ServicePackMinorVersion" is   0
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "SuiteMask" is   784
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "SystemDevice" is   "\\Device\\HarddiskVolume1",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property -  "SystemDirectory" is   "C:\\WINDOWS\\system32",
+        it " is " {
+  
+              $OS. | Should -be "
+        }
+
+    #OS Property - SystemDrive   : C:
+        it "SystemDrive is C: {
+  
+              $OS.SystemDrive | Should -be 'C'
+        }
+
+    #OS Property -  "WindowsDirectory" is   "C:\\WINDOWS"
+        it "WindowsDirectory is C:\WINDOWS" {
+  
+              $OS.WindowsDirectory | Should -be C:\\WINDOWS
+        }
+
+    #OS Property -  "PSComputerName" is   null
+        it "PSComputerName is 'blank'" {
+  
+              $OS.PSComputerName | Should -be $null
+        }

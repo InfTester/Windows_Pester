@@ -1,0 +1,330 @@
+﻿[
+    {
+        "Name":  "AmazonSSMAgent",
+        "Status":  4
+    },
+    {
+        "Name":  "Appinfo",
+        "Status":  4
+    },
+    {
+        "Name":  "AudioEndpointBuilder",
+        "Status":  4
+    },
+    {
+        "Name":  "Audiosrv",
+        "Status":  4
+    },
+    {
+        "Name":  "AWSLiteAgent",
+        "Status":  4
+    },
+    {
+        "Name":  "BFE",
+        "Status":  4
+    },
+    {
+        "Name":  "BrokerInfrastructure",
+        "Status":  4
+    },
+    {
+        "Name":  "CDPSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "CDPUserSvc_1b6feab",
+        "Status":  4
+    },
+    {
+        "Name":  "CertPropSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "CoreMessagingRegistrar",
+        "Status":  4
+    },
+    {
+        "Name":  "CryptSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "CscService",
+        "Status":  4
+    },
+    {
+        "Name":  "DcomLaunch",
+        "Status":  4
+    },
+    {
+        "Name":  "Dhcp",
+        "Status":  4
+    },
+    {
+        "Name":  "Dnscache",
+        "Status":  4
+    },
+    {
+        "Name":  "DPS",
+        "Status":  4
+    },
+    {
+        "Name":  "DsSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "EventLog",
+        "Status":  4
+    },
+    {
+        "Name":  "EventSystem",
+        "Status":  4
+    },
+    {
+        "Name":  "FontCache",
+        "Status":  4
+    },
+    {
+        "Name":  "FoxitReaderUpdateService",
+        "Status":  4
+    },
+    {
+        "Name":  "gpsvc",
+        "Status":  4
+    },
+    {
+        "Name":  "iphlpsvc",
+        "Status":  4
+    },
+    {
+        "Name":  "KeyIso",
+        "Status":  4
+    },
+    {
+        "Name":  "LanmanServer",
+        "Status":  4
+    },
+    {
+        "Name":  "LanmanWorkstation",
+        "Status":  4
+    },
+    {
+        "Name":  "lfsvc",
+        "Status":  4
+    },
+    {
+        "Name":  "lmhosts",
+        "Status":  4
+    },
+    {
+        "Name":  "LSM",
+        "Status":  4
+    },
+    {
+        "Name":  "MpsSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "MSDTC",
+        "Status":  4
+    },
+    {
+        "Name":  "NcbService",
+        "Status":  4
+    },
+    {
+        "Name":  "Netlogon",
+        "Status":  4
+    },
+    {
+        "Name":  "netprofm",
+        "Status":  4
+    },
+    {
+        "Name":  "NlaSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "nsi",
+        "Status":  4
+    },
+    {
+        "Name":  "OneSyncSvc_1b6feab",
+        "Status":  4
+    },
+    {
+        "Name":  "PcaSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "PCoIPAgent",
+        "Status":  4
+    },
+    {
+        "Name":  "PCoIPArbiterService",
+        "Status":  4
+    },
+    {
+        "Name":  "PCoIPPrintingSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "PerfHost",
+        "Status":  4
+    },
+    {
+        "Name":  "PlugPlay",
+        "Status":  4
+    },
+    {
+        "Name":  "PolicyAgent",
+        "Status":  4
+    },
+    {
+        "Name":  "Power",
+        "Status":  4
+    },
+    {
+        "Name":  "ProfSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "RpcEptMapper",
+        "Status":  4
+    },
+    {
+        "Name":  "RpcSs",
+        "Status":  4
+    },
+    {
+        "Name":  "SamSs",
+        "Status":  4
+    },
+    {
+        "Name":  "Schedule",
+        "Status":  4
+    },
+    {
+        "Name":  "SDScannerService",
+        "Status":  4
+    },
+    {
+        "Name":  "SDUpdateService",
+        "Status":  4
+    },
+    {
+        "Name":  "SENS",
+        "Status":  4
+    },
+    {
+        "Name":  "SessionEnv",
+        "Status":  4
+    },
+    {
+        "Name":  "ShellHWDetection",
+        "Status":  4
+    },
+    {
+        "Name":  "SkyLightWorkspaceConfigService",
+        "Status":  4
+    },
+    {
+        "Name":  "Spooler",
+        "Status":  4
+    },
+    {
+        "Name":  "SSDPSRV",
+        "Status":  4
+    },
+    {
+        "Name":  "StateRepository",
+        "Status":  4
+    },
+    {
+        "Name":  "Stxhd.HostAgents.HAService",
+        "Status":  4
+    },
+    {
+        "Name":  "SystemEventsBroker",
+        "Status":  4
+    },
+    {
+        "Name":  "TabletInputService",
+        "Status":  4
+    },
+    {
+        "Name":  "TermService",
+        "Status":  4
+    },
+    {
+        "Name":  "Themes",
+        "Status":  4
+    },
+    {
+        "Name":  "tiledatamodelsvc",
+        "Status":  4
+    },
+    {
+        "Name":  "TimeBrokerSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "TrkWks",
+        "Status":  4
+    },
+    {
+        "Name":  "UALSVC",
+        "Status":  4
+    },
+    {
+        "Name":  "UmRdpService",
+        "Status":  4
+    },
+    {
+        "Name":  "UserManager",
+        "Status":  4
+    },
+    {
+        "Name":  "VaultSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "W32Time",
+        "Status":  4
+    },
+    {
+        "Name":  "Wcmsvc",
+        "Status":  4
+    },
+    {
+        "Name":  "WdiSystemHost",
+        "Status":  4
+    },
+    {
+        "Name":  "WdNisSvc",
+        "Status":  4
+    },
+    {
+        "Name":  "WinDefend",
+        "Status":  4
+    },
+    {
+        "Name":  "WinHttpAutoProxySvc",
+        "Status":  4
+    },
+    {
+        "Name":  "Winmgmt",
+        "Status":  4
+    },
+    {
+        "Name":  "WinRM",
+        "Status":  4
+    },
+    {
+        "Name":  "WpnService",
+        "Status":  4
+    },
+    {
+        "Name":  "wudfsvc",
+        "Status":  4
+    }
+]

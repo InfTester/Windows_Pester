@@ -1,0 +1,9 @@
+﻿DOMAININTEGATION
+    {CsCaption                                               : DESKTOP-0NI678D}
+    {CsPartOfDomain                                          : False}
+    {LogonServer                                             : \\DESKTOP-0NI678D}
+    {CsWorkgroup                                             : WORKGROUP}
+    {CsDNSHostName                                           : DESKTOP-0NI678D}
+    {CsDomain                                                : WORKGROUP}
+    {CsDomainRole                                            : StandaloneWorkstation}
+

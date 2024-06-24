@@ -1,0 +1,10 @@
+﻿BootOptions [  
+        {CsChassisBootupState                                    : Safe     }
+        {CsAutomaticResetBootOption                              : True}
+        {CsAutomaticResetCapability                              : True}
+        {CsBootOptionOnLimit                                     : }
+        {CsBootOptionOnWatchDog                                  : }
+        {CsBootROMSupported                                      : True}
+        {CsBootStatus                                            : {0, 0, 0, 0...}}
+        {CsBootupState                                           : Normal boot}
+        ]

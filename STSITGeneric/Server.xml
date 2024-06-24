@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="21" errors="0" failures="14" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2020-11-30" time="15:12:17">
+  <environment clr-version="4.0.30319.42000" user-domain="DESKTOP-0NI678D" cwd="C:\WINDOWS\system32" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk1\Partition1" machine-name="DESKTOP-0NI678D" nunit-version="2.5.8.0" os-version="10.0.19042" user="tonyl" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Failure" success="False" time="3.1299" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1" executed="True" result="Failure" success="False" time="3.1299" asserts="0" description="C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Validate that the desktop configuration is correct" executed="True" result="Failure" success="False" time="0.4004" asserts="0" description="Validate that the desktop configuration is correct">
+            <results>
+              <test-case description="WindowsCurrentVersion:  6.3" name="Validate that the desktop configuration is correct.WindowsCurrentVersion:  6.3" time="0.0131" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected '6.3', but got $null.
+at $con.WindowsCurrentVersion| Should -Be "6.3", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:4</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:4</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsEditionId:  Core" name="Validate that the desktop configuration is correct.WindowsEditionId:  Core" time="0.0157" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'Core', but got $null.
+at $con.WindowsEditionId | Should -Be "Core", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:8</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:8</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsInstallationType: Client" name="Validate that the desktop configuration is correct.WindowsInstallationType: Client" time="0.0203" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'Client', but got $null.
+at $con.WindowsInstallationType | Should -Be "Client", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:12</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:12</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsProductId:  00326-00864-26372-AAOEM" name="Validate that the desktop configuration is correct.WindowsProductId:  00326-00864-26372-AAOEM" time="0.012" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected '00326-00864-26372-AAOEM', but got $null.
+at $con.WindowsProductId | Should -Be "00326-00864-26372-AAOEM", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:16</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:16</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsProductName: It Windows 10 Home" name="Validate that the desktop configuration is correct.WindowsProductName: It Windows 10 Home" time="0.0133" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'Windows 10 Home', but got $null.
+at $con.WindowsProductName | Should -Be "Windows 10 Home", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:20</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:20</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsRegisteredOrganization:  null" name="Validate that the desktop configuration is correct.WindowsRegisteredOrganization:  null" time="0.0061" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="WindowsRegisteredOwner: null" name="Validate that the desktop configuration is correct.WindowsRegisteredOwner: null" time="0.0033" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="WindowsSystemRoot:  C:\\WINDOWS" name="Validate that the desktop configuration is correct.WindowsSystemRoot:  C:\\WINDOWS" time="0.0123" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'C:\WINDOWS', but got $null.
+at $con.WindowsSystemRoot | Should -Be C:\WINDOWS, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:35</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:35</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="WindowsVersion: 2004" name="Validate that the desktop configuration is correct.WindowsVersion: 2004" time="0.0195" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 2004, but got $null.
+at $con.WindowsVersion | Should -Be 2004, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:41</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:41</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosBuildNumber:  null" name="Validate that the desktop configuration is correct.BiosBuildNumber:  null" time="0.0055" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="BiosCodeSet:  null" name="Validate that the desktop configuration is correct.BiosCodeSet:  null" time="0.005" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="BiosCurrentLanguage:  en|US|iso8859-1" name="Validate that the desktop configuration is correct.BiosCurrentLanguage:  en|US|iso8859-1" time="0.0263" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'en|US|iso8859-1', but got $null.
+at $con.BiosCurrentLanguage | Should -Be "en|US|iso8859-1", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:62</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:62</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosEmbeddedControllerMajorVersion:  255" name="Validate that the desktop configuration is correct.BiosEmbeddedControllerMajorVersion:  255" time="0.0529" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 255, but got $null.
+at $con.BiosEmbeddedControllerMajorVersion | Should -Be 255, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:67</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:67</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosEmbeddedControllerMinorVersion:  255" name="Validate that the desktop configuration is correct.BiosEmbeddedControllerMinorVersion:  255" time="0.0299" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 255, but got $null.
+at $con.BiosEmbeddedControllerMinorVersion | Should -Be 255, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:71</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:71</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosFirmwareType:  1" name="Validate that the desktop configuration is correct.BiosFirmwareType:  1" time="0.0402" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 1, but got $null.
+at $con.BiosFirmwareType | Should -Be 1, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:75</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:75</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosIdentificationCode:  null" name="Validate that the desktop configuration is correct.BiosIdentificationCode:  null" time="0.0066" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="BiosInstallableLanguages:  9" name="Validate that the desktop configuration is correct.BiosInstallableLanguages:  9" time="0.0183" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 9, but got $null.
+at $con.BiosInstallableLanguages | Should -Be 9, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:85</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:85</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosInstallDate:  null" name="Validate that the desktop configuration is correct.BiosInstallDate:  null" time="0.0063" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="BiosLanguageEdition:  null" name="Validate that the desktop configuration is correct.BiosLanguageEdition:  null" time="0.0057" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="BiosManufacturer:  American Megatrends Inc." name="Validate that the desktop configuration is correct.BiosManufacturer:  American Megatrends Inc." time="0.0216" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'American Megatrends Inc.', but got $null.
+at $con.BiosManufacturer | Should -Be "American Megatrends Inc.", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:105</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:105</stack-trace>
+                </failure>
+              </test-case>
+              <test-case description="BiosName:  It Bios Date: 11/13/19 17:18:20 Ver: 05.0000D " name="Validate that the desktop configuration is correct.BiosName:  It Bios Date: 11/13/19 17:18:20 Ver: 05.0000D " time="0.0146" asserts="0" success="False" result="Failure" executed="True">
+                <failure>
+                  <message>Expected 'Bios Date: 11/13/19 17:18:20 Ver: 05.0000D', but got $null.
+at $con.BiosName | Should -Be "Bios Date: 11/13/19 17:18:20 Ver: 05.0000D", C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:110</message>
+                  <stack-trace>at &lt;ScriptBlock&gt;, C:\Users\tonyl\OneDrive\TVIAAS\Scripting1\Pester Scripts\1. ST&amp;SITGeneric\server config.ps1:110</stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

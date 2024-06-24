@@ -1,0 +1,7 @@
+﻿    OperationSystemInstallPaths [
+    {OsBootDevice                                            : \Device\HarddiskVolume3}
+    {OsSystemDevice                                          : \Device\HarddiskVolume1}
+    {OsSystemDirectory                                       : C:\WINDOWS\system32}
+    {OsSystemDrive                                           : C:}
+    {OsWindowsDirectory                                      : C:\WINDOWS}
+    ]

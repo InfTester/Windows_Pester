@@ -1,0 +1,471 @@
+<#
+$RunningServices = @("AmazonSSMAgent","Appinfo","AWSLiteAgent","BFE","BrokerInfrastructure","CDPSvc","CDPUserSvc_630ea","CertPropSvc","CoreMessagingRegistrar",`
+    "CryptSvc","DcomLaunch","Dhcp","Dnscache","DPS","DsSvc","EventLog","EventSystem","FontCache","gpsvc","iphlpsvc","KeyIso","LanmanServer","LanmanWorkstation",`
+    "lfsvc","LicenseManager","lmhosts","LSM","MpsSvc","MSDTC","NcbService","Netlogon","netprofm","NlaSvc","nsi","OneSyncSvc_630ea","PcaSvc","PlugPlay","Power",`
+    "ProfSvc","RpcEptMapper","RpcSs","SamSs","ScDeviceEnum","Schedule","SENS","SessionEnv","ShellHWDetection","Spooler","SSDPSRV","ssh-agent","StateRepository",`
+    "StorSvc","SystemEventsBroker","TabletInputService","TermService","Themes","tiledatamodelsvc","TimeBrokerSvc","TrkWks","UALSVC","UmRdpService","UserManager",`
+    "VaultSvc","W32Time","Wcmsvc","WdNisSvc","WinDefend","WinHttpAutoProxySvc","Winmgmt","WinRM","WpnService","wudfsvc")
+
+
+$StoppedServices = @("AmazonSSMAgent","Appinfo","AWSLiteAgent","BFE","BrokerInfrastructure","CDPSvc","CDPUserSvc_630ea","CertPropSvc","CoreMessagingRegistrar",`
+    "CryptSvc","DcomLaunch","Dhcp","Dnscache","DPS","DsSvc","EventLog","EventSystem","FontCache","gpsvc","iphlpsvc","KeyIso","LanmanServer","LanmanWorkstation",`
+    "lfsvc","LicenseManager","lmhosts","LSM","MpsSvc","MSDTC","NcbService","Netlogon","netprofm","NlaSvc","nsi","OneSyncSvc_630ea","PcaSvc","PlugPlay","Power",`
+    "ProfSvc","RpcEptMapper","RpcSs","SamSs","ScDeviceEnum","Schedule","SENS","SessionEnv","ShellHWDetection","Spooler","SSDPSRV","ssh-agent","StateRepository",`
+    "StorSvc","SystemEventsBroker","TabletInputService","TermService","Themes","tiledatamodelsvc","TimeBrokerSvc","TrkWks","UALSVC","UmRdpService","UserManager",`
+    "VaultSvc","W32Time","Wcmsvc","WdNisSvc","WinDefend","WinHttpAutoProxySvc","Winmgmt","WinRM","WpnService","wudfsvc")
+#>
+
+describe 'Operating System Services - Windows Terminal Server' {
+    context 'Server Services Status' {
+            it "Status should be running" {
+                            (Get-Service -Name "ADWS").Status | Should Be running
+            }
+            it "Status should not be stopped" {
+                            (Get-Service -Name "ADWS").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "AmazonSSMAgent").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "AmazonSSMAgent").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Appinfo").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Appinfo").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "AppMgmt").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "AppMgmt").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "AWSLiteAgent").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "AWSLiteAgent").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "BFE").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "BFE").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "BrokerInfrastructure").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "BrokerInfrastructure").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "CDPSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "CDPSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "CDPUserSvc_49f50").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "CDPUserSvc_49f50").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "CertPropSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "CertPropSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "CoreMessagingRegistrar").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "CoreMessagingRegistrar").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "CryptSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "CryptSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "DcomLaunch").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "DcomLaunch").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Dfs").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Dfs").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "DFSR").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "DFSR").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Dhcp").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Dhcp").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "DNS").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "DNS").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Dnscache").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Dnscache").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "DPS").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "DPS").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "DsSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "DsSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "EventLog").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "EventLog").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "EventSystem").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "EventSystem").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "FDResPub").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "FDResPub").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "FontCache").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "FontCache").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "gpsvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "gpsvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "iphlpsvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "iphlpsvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "IsmServ").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "IsmServ").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Kdc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Kdc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "KeyIso").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "KeyIso").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "LanmanServer").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "LanmanServer").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "LanmanWorkstation").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "LanmanWorkstation").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "LicenseManager").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "LicenseManager").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "LSM").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "LSM").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "mpssvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "mpssvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "MSDTC").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "MSDTC").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "NcbService").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "NcbService").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Netlogon").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Netlogon").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "netprofm").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "netprofm").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "NlaSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "NlaSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "nsi").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "nsi").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "NTDS").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "NTDS").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "PlugPlay").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "PlugPlay").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "Power").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Power").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "ProfSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "ProfSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "RasMan").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "RasMan").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "RpcEptMapper").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "RpcEptMapper").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "RpcSs").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "RpcSs").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "SamSs").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SamSs").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "Schedule").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Schedule").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "SENS").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SENS").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "SessionEnv").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SessionEnv").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "ShellHWDetection").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "ShellHWDetection").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {            
+                            (Get-Service -Name "Spooler").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Spooler").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "SstpSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SstpSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "StateRepository").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "StateRepository").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "StorSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "StorSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "SysMain").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SysMain").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "SystemEventsBroker").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "SystemEventsBroker").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "TabletInputService").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "TabletInputService").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "TermService").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "TermService").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Themes").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "Themes").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "TimeBrokerSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "TimeBrokerSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "TokenBroker").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "TokenBroker").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "UALSVC").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "UALSVC").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "UmRdpService").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                                        (Get-Service -Name "UmRdpService").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "UserManager").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "UserManager").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "UsoSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "UsoSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be Running" {
+                            (Get-Service -Name "W32Time").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "W32Time").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Wcmsvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "Wcmsvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "WdNisSvc").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "WdNisSvc").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "WinDefend").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "WinDefend").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "Winmgmt").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "Winmgmt").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "WinRM").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "WinRM").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "WpnService").Status | Should Be running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "WpnService").Status | Should Not Be Stopped
+            }
+            it "Status should be running" {
+                            (Get-Service -Name "WpnUserService_49f50").Status | Should Be Running
+            }
+            it "Status should not be Stopped" {
+                            (Get-Service -Name "WpnUserService_49f50").Status | Should Not Be Stopped
+            }
+     }
+}
