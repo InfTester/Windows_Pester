@@ -1,0 +1,31 @@
+{ "ConfigItems" : [
+	{ "Scope" : [
+		{ "Id" : "10.0.32.0" },
+        { "Name" : "DHCPScope1" },
+		{ "Subnet" : "255.255.248.0" },
+		{ "StartRange" : "10.0.32.1" },
+		{ "EndRange" : "10.0.39.254" },
+		{ "LeaseDuration" : "01:00:00" },
+		{ "State" : "Active" }
+	]},
+	{ "Settings" : [
+		{ "DomJoined" : "True" },
+		{ "Authorised" : "True" },
+		{ "Bootp" : "True" },
+		{ "ConflDetect" : "0" }
+	]},
+	
+	{ "Audit" : [
+		{ "Logging" : "True" },
+		{ "Path" : "C:\\Windows\\system32\\dhcp" }
+		
+	]},
+
+	{ "DNS" : [
+		{ "Updates" : "OnClientRequest" },
+		{ "LeaseExpiry" : "True" },
+		{ "NameProtection" : "False" }
+	]}
+
+]}
+

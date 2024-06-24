@@ -1,0 +1,32 @@
+{ "ConfigItems" : [
+	{ "Host" : [
+		{ "Name" : "WSUS01" },
+		{ "PartofDomain" : "True" },
+        { "Domain" : "tviaas.local" },
+		{ "DomainRole" : "MemberServer" }
+	]},
+	{ "OS" : [
+		{ "Version" : "10.0.17763" },
+		{ "BuildNumber" : "17763" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "02/08/2021 14:19:46" }
+	]},
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2019 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "02/08/2021 14:19:46" }
+	]},
+	{ "Locale" : [
+		{ "DisplayName" : "English (United States)" },
+		{ "LCID" : "1033" },
+		{ "TimeZone" : "(UTC) Coordinated Universal Time" }
+	]},
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.39.118" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0" },
+		{ "DNS" : "DNS Servers . . . . . . . . . . . : 10.0.36.221" }
+	]}
+]}

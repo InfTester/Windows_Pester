@@ -1,0 +1,6 @@
+{ "Certificate" : [
+    { "Subject" : "CN=WTS4.tviaas.local" },
+    { "Issuer" : "CN=WTS4.tviaas.local" },
+    { "Expiry" : "09/28/2021 09:51:41" },
+    { "IssueDate" : "03/29/2021 09:51:41" }
+]}

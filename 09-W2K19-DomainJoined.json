@@ -1,0 +1,42 @@
+{ "ConfigItems" : [
+	
+	{ "Host" : [
+		{ "Name" : "WIN2019BASE" },
+		{ "Domain" : "tviaas.local" },
+		{ "PartofDomain" : "True" },
+		{ "DomainRole" : "MemberServer" }
+	]},
+
+	{ "Domain" : [
+		{ "Name" : "tviaas.local" }
+	]},
+
+	{ "NetworkConfig" : [
+		{ "IP" : "10.0.38.82" },
+		{ "Gateway" : "10.0.32.1" },
+		{ "Subnet" : "Subnet Mask . . . . . . . . . . . : 255.255.248.0" },
+		{ "DNS" : "DNS Servers . . . . . . . . . . . : 10.0.36.221" }
+	]},
+
+	{ "OS" : [
+		{ "Version" : "10.0.17763" },
+		{ "BuildNumber" : "17763" },
+		{ "Architecture" : "64-bit" },
+		{ "InstallDate" : "02/09/2021 09:48:14" }
+	]},
+
+	{ "WindowsServer" : [
+		{ "InstallationType" : "Server" },
+		{ "ProductName" : "Windows Server 2019 Datacenter" },
+		{ "Edition" : "ServerDatacenter" },
+		{ "Version" : "6.3" },
+		{ "InstallDate" : "02/09/2021 09:48:14" }
+	]},
+
+	{ "Locale" : [
+		{ "DisplayName" : "English (United States)" },
+		{ "LCID" : "1033" },
+		{ "TimeZone" : "(UTC) Coordinated Universal Time" }
+	]}
+		
+]}
